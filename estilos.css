@@ -1,0 +1,159 @@
+
+.titleSecond {
+    font-size: 2em;
+    color: rgb(73, 73, 73);
+}
+
+.subtitle{
+    color: rgb(90, 88, 88);
+    padding: 0.9px 0px 0.px 0px;
+    font-size: 2em;
+    background-color:rgba(0, 0, 0, 0.1);
+}
+
+#titleFirst{
+    color: rgb(73, 73, 73);
+    font-size: 5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0.01em 0px 0.2em 0px;
+    background-color:rgba(0, 0, 0, 0.1);
+}
+
+#titulosPri{
+    border:gray;
+    margin: auto;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('imagenes/img1.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 96vw;
+    height: 300px;
+}
+.habitacion{
+    width: 10em;
+    height: 15em;
+}
+
+.cocina {
+    width: 10em;
+    height: 15em;
+}
+
+.living{
+    width: 10em;
+    height: 15em;
+}
+
+.bano {
+    width: 10em;
+    height: 15em;
+}
+
+.cards{
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    width: fit-content;
+    padding: 1em 1em 1em 1em;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+}
+
+.cards:hover{
+    background-color: rgb(158, 155, 155);
+}
+
+#cards-container{
+    background-color: rgb(201, 194, 194);
+    width: 96vw;
+    margin: auto;
+    border: 0.5px solid rgb(201, 194, 194);
+    padding: 1em;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color:rgb(190, 189, 189);
+
+  }
+
+footer{
+    font-family: 'Arial', sans-serif;
+
+}
+#footerID{
+    background-color: rgb(201, 194, 194);
+    width: 96vw;
+    margin: auto;
+    border: 0.5px solid rgb(201, 194, 194);
+    padding: 1em;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footerInitial{
+    font-size: 20px;
+    background-color: rgb(201, 194, 194);
+    width: 96vw;
+    display: flex;
+    justify-content: center;
+    padding: 1em 1em 0px 1em;
+}
+
+.cardsFoo{
+    width: fit-content;
+    padding: 0em 1em 0em 1em;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.redes{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width: 96vw;
+    padding: 1em 1em 1em 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 1em;
+    align-items: center;
+}
+
+.cardsFoo:hover{
+    background-color: rgb(158, 155, 155);
+    border-radius: 15%;
+}
+
+.titleRedes{
+    display: flex;
+    flex-direction: row;
+    transition: 1s;
+    font-size: 1em;
+    color: rgb(73, 73, 73);
+}
+
+.imgInstagram{
+    align-items: center;
+    width: 1.5em;
+    height: 1.5em;
+}
+
+.imgWhats{
+    width: 1.5em;
+    height: 1.5em;
+}
+
+.imgMail{
+    width: 1.5em;
+    height: 1.5em;
+}
